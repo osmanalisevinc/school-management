@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+
   return (
     <div>
         <div>@2025 Mamamia. All rights reserved.</div>

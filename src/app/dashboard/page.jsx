@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './page.module.css'
 
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
+    <div className={styles.container}>DashboardPage</div>
   )
 }
 
