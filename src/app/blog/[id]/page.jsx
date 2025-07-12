@@ -13,6 +13,19 @@ async function getData(id) {
   return res.json();
 }
 
+export async function generateMetadata({ params }) {
+ 
+  // fetch post information
+  const post = await getData(params.id)
+  
+ 
+  return {
+    title: post.title,
+    description: post.desc,
+  }
+}
+ 
+
 const BlogPost = async ({ params }) => {
   console.log(params)
   const data = await getData(params.id);
