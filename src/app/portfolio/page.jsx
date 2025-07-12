@@ -17,6 +17,7 @@ const PortfolioPage = () => {
         <span  className={styles.title}>Applications</span>
         </Link>
       </div>
+      
     </div>
   )
 }
